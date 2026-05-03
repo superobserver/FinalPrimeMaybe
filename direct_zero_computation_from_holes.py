@@ -13,7 +13,7 @@ sys.path.append('/home/workdir/attachments')
 import April1Sieve2 as elder
 
 # ====================== CONFIG ======================
-max_m = 500            # larger = more accurate candidates
+max_m = 1900            # larger = more accurate candidates
 t_start, t_end, step = 10, 240, 0.01
 known_zeros = [14.134725, 21.022039, 25.010857, 30.424876, 32.935062, 37.586178, 40.918719, 43.327073, 48.0051508811, 49.773832477, 52.970321477, 56.44624769, 221.4307055, 224.0070002546, 231.9872352]
 # ===================================================
