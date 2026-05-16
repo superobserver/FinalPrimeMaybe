@@ -23,7 +23,7 @@ SHOW_FINAL_TOTALS_ONLY = True      # set False to see per-comb running totals
 # ===========================================
 
 print(f"Loading exact ground-state data for class k=11 up to epoch x={MAX_EPOCHS}...")
-grating_data = elder.get_grating_data(11, max_x=MAX_EPOCHS)
+grating_data = elder.get_grating_data(91, max_x=MAX_EPOCHS)
 print(f"Loaded {len(grating_data)} exact (x, y0, p, q) tuples.")
 
 def exact_laplace(sigma, t):
